@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>˚₊‧꒰ა welcome to my digi-garden ໒꒱ ‧₊˚</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on ˚₊‧꒰ა welcome to my digi-garden ໒꒱ ‧₊˚</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 09 Jan 2026 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Cute Cat That Stole Your Credentials</title>
+      <link>http://localhost:1313/write/mimikatz-cute-cat-credentials/</link>
+      <pubDate>Fri, 09 Jan 2026 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/write/mimikatz-cute-cat-credentials/</guid>
+      <description>&lt;p&gt;Who would have told Benjamin Delpy back in 2011 that the tool he casually built and named Mimikatz would go on to become one of the most iconic credential-theft and pentesting tools in history?&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;I do not know if it is movie-script material, but the story is definitely a curious one. So let&amp;rsquo;s start at the beginning.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;h2 id=&#34;the-beginning&#34;&gt;The Beginning&lt;/h2&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Back then, Benjamin was experimenting with C and getting his feet wet in the world of programming when he stumbled across a critical flaw in Windows systems, specifically in how user passwords were protected in memory. Doing the right thing, he responsibly reported the issue to Microsoft.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Internet&#39;s Oldest Scam, Now Open Source</title>
+      <link>http://localhost:1313/write/phishing-scam-open-source/</link>
+      <pubDate>Wed, 07 Jan 2026 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/write/phishing-scam-open-source/</guid>
+      <description>&lt;p&gt;So, how do attackers actually break into a network? If you look closely, the answer is usually the same. &lt;strong&gt;Stolen credentials.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Credential theft remains one of the most common and effective ways attackers gain access today, and phishing plays a huge role in making that happen. But let&amp;rsquo;s rewind a bit before we get ahead of ourselves.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center; margin: 40px 0;&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/f1.png&#34; alt=&#34;Phishing attack diagram&#34; style=&#34;max-width: 90%; height: auto; border-radius: 8px;&#34; /&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;h2 id=&#34;in-the-beginning-there-was-phishing&#34;&gt;In the beginning, there was phishing&lt;/h2&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>example1</title>
+      <link>http://localhost:1313/write/test/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/write/test/</guid>
+      <description>&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>example2</title>
+      <link>http://localhost:1313/write/test2/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/write/test2/</guid>
+      <description>&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>example3</title>
+      <link>http://localhost:1313/open-source/test3/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/open-source/test3/</guid>
+      <description>&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>example4</title>
+      <link>http://localhost:1313/open-source/test4/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/open-source/test4/</guid>
+      <description>&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>me</title>
+      <link>http://localhost:1313/me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/me/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

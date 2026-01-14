@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>˚₊‧꒰ა welcome to my digi-garden ໒꒱ ‧₊˚</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
+</head>
+</head>
+<body>
+  <header>
+    <header class="py-6 px-6">
+    <div class="flex justify-start items-center">
+    
+    <nav>
+      <ul class="flex list-none m-0 p-0 gap-4">
+      <li>
+        <a class="text-sm" href="/">
+            <img src="/digigarden2025.png" alt="home">
+        </a>
+      </li>
+      <li>
+        <a class="text-sm" href="/write/">
+            write
+        </a>
+      </li>
+      <li>
+        <a class="text-sm" href="/me/">
+            me
+        </a>
+      </li>
+      </ul>
+    </nav>
+</div>
+</header>
+  </header>
+  <div class="flex justify-center">
+    <img src="/border-home1.png" alt="border-home1">
+  </div>
+  <main>
+    <div class="mx-auto w-full max-w-4xl px-4 py-6">
+    
+  <div class="flex">
+    <div class="flex-1">
+      <h1 class=" py-2">The Cute Cat That Stole Your Credentials</h1>
+      
+      
+      <time datetime="2026-01-09T09:00:00-07:00" class="block mb-4">January 9, 2026</time>
+      <p>Who would have told Benjamin Delpy back in 2011 that the tool he casually built and named Mimikatz would go on to become one of the most iconic credential-theft and pentesting tools in history?</p>
+<p> </p>
+<p>I do not know if it is movie-script material, but the story is definitely a curious one. So let&rsquo;s start at the beginning.</p>
+<p> </p>
+<p> </p>
+<h2 id="the-beginning">The Beginning</h2>
+<p> </p>
+<p>Back then, Benjamin was experimenting with C and getting his feet wet in the world of programming when he stumbled across a critical flaw in Windows systems, specifically in how user passwords were protected in memory. Doing the right thing, he responsibly reported the issue to Microsoft.</p>
+<p> </p>
+<p>The response was… predictable.</p>
+<div style="float: right; margin: 0 0 20px 20px; max-width: 50%;">
+    <img src="/c2.png" alt="Mimikatz in action" style="width: 100%; height: auto; border-radius: 8px;" />
+</div>
+<p> </p>
+<p>Microsoft downplayed the vulnerability, arguing that it was not a real issue because it was too difficult to exploit.</p>
+<p> </p>
+<p>So Benjamin did what any curious developer would do. He proved them wrong.</p>
+<p> </p>
+<p>That is how Mimikatz was born. The name itself is a playful nod to &ldquo;cute cat,&rdquo; but the tool was anything but harmless. It made something Microsoft considered &ldquo;too hard&rdquo; suddenly very easy.</p>
+<p> </p>
+<p>When Delpy presented Mimikatz at the Positive Hack Days conference in Moscow, it caused a serious stir. So much so that, during his stay, he reportedly encountered a spy attempting to tamper with his laptop in his hotel room. Not bad for a side project.</p>
+<p> </p>
+<p>Fast forward to today, and after years of evolution, Mimikatz is still everywhere. It remains a go-to tool not only for cybercriminals, but also for security professionals and red teams alike.</p>
+<p> </p>
+<p> </p>
+<h2 id="so-how-does-mimikatz-actually-work">So… how does Mimikatz actually work?</h2>
+<p> </p>
+<p>At a high level, Mimikatz is able to extract credentials from Windows systems by abusing the way Single Sign-On works. More specifically, it takes advantage of a weakness in <strong>WDigest</strong>, a component that stores encrypted passwords and their secret keys directly in memory.</p>
+<p> </p>
+<p>Despite being known as risky for years, WDigest remained enabled by default until Windows 10. Even today, while it is disabled by default, it is still present on the system, meaning an attacker only needs to enable it as an extra step.</p>
+<p> </p>
+<p>There are a few important things to keep in mind here.</p>
+<p> </p>
+<p>First, an attacker needs <strong>valid credentials</strong> on the target system. These often come from other techniques like phishing, malware, or credentials harvested from data leaks and the dark web.</p>
+<p> </p>
+<p>Second, and most importantly, the attacker needs <strong>administrator privileges</strong>. This is yet another reason why superuser accounts are dangerous and usually unnecessary. Surprisingly, many people still operate with a mindset from 20 years ago, believing they cannot use a computer properly without full admin rights.</p>
+<div style="float: left; margin: 0 25px 20px 0; max-width: 40%;">
+    <img src="/c1.png" alt="Mimikatz cat mascot" style="width: 100%; height: auto; border-radius: 8px; opacity: 0.9;" />
+</div>
+<p> </p>
+<p> </p>
+<h2 id="what-is-mimikatz-capable-of-today">What is Mimikatz capable of today?</h2>
+<p> </p>
+<p>Originally, Mimikatz focused on exploiting the Windows weakness described above. Over time, it evolved and adapted to modern environments. Today, it supports multiple credential-theft techniques, including:</p>
+<p> </p>
+<p><strong>Pass-the-Hash</strong></p>
+<p> </p>
+<p>Mimikatz does not need to crack the password at all. It simply extracts the NTLM hash stored by Windows and uses it directly for authentication elsewhere.</p>
+<p> </p>
+<p><strong>Pass-the-Ticket</strong></p>
+<p> </p>
+<p>Similar to pass-the-hash, but focused on Kerberos tickets used in newer Windows versions. Mimikatz captures the full ticket and reuses it to authenticate to other systems.</p>
+<p> </p>
+<p><strong>Overpass-the-Hash</strong></p>
+<p> </p>
+<p>This technique impersonates a user using a single key obtained from an Active Directory domain controller.</p>
+<p> </p>
+<p><strong>Kerberos Golden Ticket</strong></p>
+<p> </p>
+<p>One of the most powerful attacks. Mimikatz extracts the ticket of the hidden KRBTGT account, which is used to sign all other Kerberos tickets. With this, an attacker can gain full domain administrator privileges.</p>
+<p> </p>
+<p><strong>Kerberos Silver Ticket</strong></p>
+<p> </p>
+<p>This attack abuses the Kerberos TGS ticket. Once issued, Windows does not properly validate its later use, which attackers can exploit.</p>
+<p> </p>
+<p><strong>Pass-the-Cache</strong></p>
+<p> </p>
+<p>Similar to pass-the-ticket, but targeting non-Windows systems. This technique extracts cached and encrypted credentials from macOS, Unix, and Linux systems.</p>
+<p> </p>
+<p> </p>
+<h2 id="how-can-you-defend-against-mimikatz">How can you defend against Mimikatz?</h2>
+<p> </p>
+<p>There is no single fix, but there are several effective defensive measures:</p>
+<p> </p>
+<p>❋ Avoid using superuser or administrator accounts unless absolutely necessary.</p>
+<p> </p>
+<p>❋ Keep systems fully updated. Seriously. Always.</p>
+<p> </p>
+<p>❋ Disable password caching to prevent Mimikatz from extracting user hashes.</p>
+<p> </p>
+<p>❋ Disable WDigest entirely. On older systems like Windows 7, patches such as <strong>KB2871997</strong> help mitigate this.</p>
+<p> </p>
+<p>❋ Prevent users from storing passwords for network resources.</p>
+<p> </p>
+<p>❋ Enable LSA protection (available from Windows 8.1 / Server 2012 onward) to block third-party access to LSASS.</p>
+<p> </p>
+<p>❋ Disable legacy NTLMv1 wherever possible.</p>
+<p> </p>
+<p>❋ Disable debug privileges, which Windows grants to administrators by default.</p>
+<p> </p>
+<p> </p>
+<p>Mimikatz is a perfect example of how a single design decision can echo for years. What started as a proof-of-concept became a foundational tool in both attack and defense, and it remains just as relevant today as it was over a decade ago.</p>
+
+      <div class="mt-6">
+        
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/tags/write/">Write</a></li>
+    </ul>
+  </div>
+
+      </div>
+    </div>
+  </div>
+
+    </div>
+  </main>
+  
+  <div class="flex justify-center">
+    <img src="/border-home1.png" alt="border-home1">
+  </div>
+  <footer>
+    <p class="text-xs px-6 py-6">Made with ୨ <a href="https://github.com/danapixels/digio-theme" target="_blank" rel="noopener noreferrer">Digio</a> ୧ .</p>
+
+  </footer>
+</body>
+</html>
